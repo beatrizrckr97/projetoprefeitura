@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-right: 30px; /* Adiciona um espaçamento à direita */
+    
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    background-color: #186dc1;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Adicionando estilos para centralizar o conteúdo da seção */
+section {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+
+
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para o corpo da página de login */
+body.login-page {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para o formulário de login */
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px; /* Largura máxima do formulário */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra do formulário */
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form .input-group {
+    margin-bottom: 20px;
+}
+
+.login-form .input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+
+nav ul li a img {
+    width: 30px; /* Defina a largura desejada para os ícones */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+}
+
+
+/* Estilos para o corpo da página de cadastro */
+body.cadastro-page {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para o formulário de cadastro */
+.cadastro-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px; /* Largura máxima do formulário */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra do formulário */
+}
+
+.cadastro-form h2 {
+    margin-bottom: 20px;
+}
+
+.cadastro-form .input-group {
+    margin-bottom: 20px;
+}
+
+.cadastro-form .input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cadastro-form .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cadastro-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cadastro-form button:hover {
+    background-color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox para posicionar os itens */
+    justify-content: flex-end; /* Alinha os itens à direita */
+}
+
+nav ul li {
+    margin-right: 20px; /* Adiciona um espaçamento entre os itens */
+}
+
+nav ul li.active {
+    order: 1; /* Move o item ativo para o final da lista (lado direito) */
+}
+/* Estilos para a imagem de login */
+.login-icon img {
+    width: 30px; /* Defina a largura desejada para a imagem */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+    
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-right: 50px; /* Adiciona um espaçamento maior à direita */
+}
+
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .search-box {
+    margin-right: 20px;
+}
+
+nav .login-icon {
+    margin-left: 20px; /* Adiciona um espaçamento entre a caixa de pesquisa e o ícone de login */
+}
+
