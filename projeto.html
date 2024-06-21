@@ -1,38 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Conheça o Projeto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li.active {
+            font-weight: bold;
+        }
+
+        .search-box {
+            text-align: center;
+            margin-bottom: 20px; /* Modificado */
+        }
+
+        .search-box input[type="text"] {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 37%; 
+            margin-bottom: 10px; /* Modificado */
+        }
+
+        .search-box button[type="submit"] {
+            padding: 8px 15px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .search-box button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        section {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
-
-<head>
 <body>
-        <nav>
-            <div class="container">
-                <ul>
-                    <li><a href="index.html">Página Inicial</a></li>
-                    <li><a href="projeto.html">Conheça o Projeto</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li class="active"><a href="login.html"><img src=image/icone.png alt="Icone de login"></a></li>
-                </ul>
-                <div class="search-box">
-                    <input type="text" placeholder="Buscar">
-                    <button type="submit">Procurar</button>
-                </div>
-            </div>
-        </nav> 
-</header>
- 
-      <section>
-        <h2>Conheça projeto Prefeitura mais próxima de você</h2>
-      </section>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="projeto.html">Conheça o Projeto</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li class="active"><a href="login.html"><img src="image/icone.png" alt="Icone de login"></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="search-box">
+        <input type="text" placeholder="Buscar">
+        <button type="submit">Procurar</button>
+    </div>
     
+    <section>
+        <div class="container">
+            <h2>Conheça o Projeto Prefeitura mais Próxima de Você</h2>
+            <p>Este projeto está sendo desenvolvido por um grupo de acadêmicos da UDESC, do curso de Tecnologia em Análise e Desenvolvimento de Sistemas. Utilizando dos conhecimentos adquiridos nas disciplinas em decorrer do curso, o projeto está sendo desenvolvido para a disciplina de Projeto Integrador, utilizando dos conhecimentos adquiridos na disciplina de Introdução a Programação Web.</p>
+            <p>Informações mais detalhadas do projeto se encontram na <a href="index.html" style="color: blue;">página inicial</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Prefeitura Mais Próxima de Você - Todos os direitos reservados
+    </footer>
 </body>
-
-<footer>
-    &copy; 2024 Prefeitura Mais Próxima de Você - Todos os direitos reservados
-</footer>
-
 </html>

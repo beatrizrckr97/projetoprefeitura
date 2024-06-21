@@ -1,10 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Prefeitura mais próxima de você - Página Inicial</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li.active {
+            font-weight: bold;
+        }
+
+        .search-box {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .search-box input[type="text"] {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 37%;
+            margin-bottom: 10px;
+        }
+
+        .search-box button[type="submit"] {
+            padding: 8px 15px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .search-box button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -13,20 +93,36 @@
                 <li><a href="index.html">Página Inicial</a></li>
                 <li><a href="projeto.html">Conheça o Projeto</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li class="active"><a href="login.html"><img src=image/icone.png alt="Icone de login"></a></li>
+                <li class="active"><a href="login.html"><img src="image/icone.png" alt="Icone de login"></a></li>
             </ul>
-            <div class="search-box">
-                <input type="text" placeholder="Buscar">
-                <button type="submit">Procurar</button>
-            </div>
         </div>
-    </nav> 
+    </nav>
+    <div class="search-box">
+        <input type="text" placeholder="Buscar">
+        <button type="submit">Procurar</button>
+    </div>
     <section>
-        <h2>Bem vindo ao Projeto Prefeitura mais próxima de você!</h2>
+        <div class="container">
+        
+            <h2>Objetivo</h2>
+            <p>O objetivo principal deste projeto é o desenvolvimento de um software que atuasse como intermediário direto entre o cidadão e o órgão responsável. Com essa ferramenta, o cidadão teria uma maneira de se fazer ouvir pelas entidades públicas de sua região, utilizando a tecnologia para agilizar os processos e proporcionar facilidades para os cidadãos. </p>
+            <h1>Prefeitura + Próxima de Você</h1>
+            <p>O projeto "Prefeitura + Próxima de Você" é uma iniciativa voltada para facilitar a comunicação entre os cidadãos e suas respectivas prefeituras, visando resolver questões e oferecer serviços de forma rápida, eficiente e acessível.</p>
+            <p>Essa plataforma busca estreitar os laços entre a administração municipal e a comunidade, proporcionando uma maneira mais direta e transparente de lidar com questões relacionadas ao município. Por meio dela, os cidadãos podem reportar problemas, enviar sugestões, fazer solicitações e acessar informações relevantes sobre a cidade.</p>
+            <p>Entre os principais objetivos do projeto estão:</p>
+            <ol>
+                <li><strong>Facilitar o Acesso aos Serviços Municipais:</strong> Disponibilizar um canal centralizado onde os cidadãos possam acessar os diversos serviços oferecidos pela prefeitura, tais como agendamento de consultas, solicitação de documentos, entre outros.</li>
+                <li><strong>Promover a Participação Cidadã:</strong> Incentivar a participação ativa dos cidadãos na gestão pública, permitindo que expressem suas opiniões, sugestões e críticas sobre políticas municipais e serviços prestados pela prefeitura.</li>
+                <li><strong>Agilizar o Atendimento e Solucionar Problemas:</strong> Agilizar o processo de atendimento aos cidadãos, permitindo que relatem problemas como buracos nas ruas, falta de iluminação pública, entre outros, para que sejam resolvidos de forma mais rápida e eficiente.</li>
+                <li><strong>Promover a Transparência e a Prestação de Contas:</strong> Fornecer informações claras e acessíveis sobre as ações e projetos da prefeitura, promovendo a transparência na gestão pública e permitindo que os cidadãos acompanhem de perto as atividades do governo municipal.</li>
+            </ol>
+            <p>No geral, o projeto "Prefeitura + Próxima de Você" busca fortalecer a relação entre os governantes e os cidadãos, promovendo uma gestão mais participativa, transparente e voltada para as necessidades reais da comunidade.</p>
+            
+            <p>Para mais informações, entre em contato na aba <a href="contato.html">Contato</a>.</p>
+        </div>
     </section>
     <footer>
         &copy; 2024 Prefeitura Mais Próxima de Você - Todos os direitos reservados
     </footer>
 </body>
 </html>
-
