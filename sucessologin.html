@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Bem-sucedido</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li.active {
+            font-weight: bold;
+        }
+
+        .search-box {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .search-box input[type="text"] {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 37%;
+            margin-bottom: 10px;
+        }
+
+        .search-box button[type="submit"] {
+            padding: 8px 15px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .search-box button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .success-message {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 1.2em;
+            color: green;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .login-form,
+        .signup-link {
+            display: none; /* Esconde a seção de login e link de cadastro */
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="projeto.html">Conheça o Projeto</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li class="active"><a href="login.html"><img src="image/icone.png" alt="Ícone de login"></a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="search-box">
+    <input type="text" placeholder="Buscar">
+    <button type="submit">Procurar</button>
+</div>
+
+<section class="success-message">
+    <div class="container">
+        <h2>Login Bem-sucedido</h2>
+        <p>Você logou com sucesso!</p>
+    </div>
+</section>
+
+<footer>
+    &copy; 2024 Prefeitura Mais Próxima de Você - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
